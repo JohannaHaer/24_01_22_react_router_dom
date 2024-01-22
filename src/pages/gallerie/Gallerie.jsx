@@ -1,9 +1,11 @@
+import { useState } from "react";
 import Nav from "../../components/nav/Nav";
 
 const Gallerie = () => {
+    const [bgGallerie] = useState(true)
     return (
         <>
-            <Nav/>
+            <Nav bgGallerie={bgGallerie}/>
         </>
     );
 }

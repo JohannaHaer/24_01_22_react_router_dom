@@ -14,7 +14,7 @@ nav a {
     padding: 0.5rem 1rem;
 } */
 
-nav a:active {
+.active {
     background-color: red;
 }
 
