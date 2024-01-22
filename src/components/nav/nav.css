@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* nav button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 0.5rem 1rem;
+} */
+
+nav a:active {
+    background-color: red;
+}
+
